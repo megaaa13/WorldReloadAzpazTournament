@@ -10,6 +10,3 @@ commands:
   reloadmap:
     description: Reload current world to saved state
     aliases: [rm]
-  savemap:
-    description: Save current map state
-    aliases: [sm]
