@@ -1,0 +1,15 @@
+name: WorldReload
+version: '${project.version}'
+main: megaaa.worldreload.WorldReload
+api-version: 1.16
+prefix: WorldReload
+load: POSTWORLD
+authors: [ Megaaa ]
+description: A simple plugin who allows you to reload a map with a server restarting
+commands:
+  reloadmap:
+    description: Reload current world to saved state
+    aliases: [rm]
+  savemap:
+    description: Save current map state
+    aliases: [sm]
